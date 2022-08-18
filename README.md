@@ -35,7 +35,7 @@ What is a branch?
 Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. reference: [About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
 It is great to use branches to test new ideas without messing up any code in the Master Branch, when you are happy with the ideas you did on the branches you can merge it to the Master Branch.
 
-In each project (project 1 - project 5), I will make use of a branch to test and safely experiment with the different tasks expected of me, without the fear of ruining anything on my Master Branch. 
+Throughout this project, I don't have a branching strategy.
 
 ## Explain the use of a .gitignore file within each project:
 What is a .gitignore file?
@@ -47,6 +47,13 @@ In each project (project 1 - project 5), I will make use of a .gitignore file, t
 ## Explain the storage of credentials and sensitive information:
 The mistake that many programmers (even experienced ones) make is to store secrets together with their code, checking them into source control (like Git). This is certainly the easiest, most convenient way to deal with the problem, but it’s a rather bad idea. The most immediate reason why is connected to security. Source code repositories are meant to be shared, with your teammates, your company, or possibly with the entire world (as is the case for open source software). reference: [With Blue Ink](https://withblue.ink/2021/05/07/storing-secrets-and-passwords-in-git-is-bad.html)
 I can invalidate tokens and passwords. If I don't want anyone even GitHub to have access to my code, or if regulations require it, Use GitHub Enterprise's on perm-offering. reference: [10 GitHub Security Best Practices](https://snyk.io/blog/ten-git-hub-security-best-practices/)
+I can disable forking, 
+Disable visibility changes, 
+Enforce 2-factor authentication, 
+Limit access to allowed IP addresses, 
+Revoke permissions in a timely manner, 
+Require commit signing and 
+Enforce code review before commit. reference: [Security best practices for GitHub](https://spectralops.io/resources/how-to-choose-a-secret-scanning-solution-to-protect-credentials-in-your-code/)
 
 
 
